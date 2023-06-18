@@ -5,10 +5,19 @@
  */
 int main(void)
 {
-	char c;
-
-	for (c = 'a'; c < a "2"; c++)
-		putchar(c);
+	int n = 97;
+	while (n <= 122)
+	{
+		putchar(n);
+		n++;
+	}
 	putchar("\n");
 	return (0);
 }
+
+
+
+
+
+
+
