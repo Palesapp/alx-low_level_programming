@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-*Description: _isalpha - 1 if the input is a
-*letter another case 0
-*
-*Return: 1 for letters, 0 for the rest
-*/
+ *_isalpha - checks if the given character is lower case.
+ *@c: character to test.
+ *
+ *Return: 1 for letters, 0 for the rest
+ */
 int _isalpha(int c)
 {
-	if((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
