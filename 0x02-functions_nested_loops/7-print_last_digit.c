@@ -1,27 +1,21 @@
 #include "main.h"
 /**
  *print_last_digit - will print the last digit of a given number.
- *@t: Number used to find last digit
- *
+ *@n: Number used to find last digit
  *Description: will print the last digit of a given number. If the
- *number is a negative the value will be return unsigned int.
+ *number is negative rhe value will return unsigned int.
  *
- *Return: last digit.
+ *Return: last digit
  */
 int print_last_digit(int n)
 {
-	int t;
+	n %= 10;
 
-	t = n % 10;
-	if (t < 0)
+	if (n < 0)
 	{
-		_putchar(-t + 48);
-		return (-t);
+		n *= -1;
 	}
-	else
-	{
-		_putchar(t + 48);
-		return (t);
-	}
+	_putchar('0' + n);
+	return (n);
 	_putchar('\n');
 }
