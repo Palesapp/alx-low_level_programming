@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*Description: _islower - i if the input is a
-*lowercase character. Another cases 0
+* Description: _islower - i if the input is a
+* lowercase character. Another cases 0
 *
-*Return: 1 for lowercase, 0 for the rest.
+* Return: 1 for lowercase, 0 for the rest.
 */
 int _islower(int c)
 {
