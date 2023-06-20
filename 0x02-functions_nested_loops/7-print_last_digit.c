@@ -1,9 +1,13 @@
 #include "main.h"
 /**
-*Description: print_last_digit - print the last digit of the number
-*
-*Return: last digit.
-*/
+ *print_last_digit - will print the last digit of a given number.
+ *@t: Number used to find last digit
+ *
+ *Description: will print the last digit of a given number. If the
+ *number is a negative the value will be return unsigned int.
+ *
+ *Return: last digit.
+ */
 int print_last_digit(int n)
 {
 	int t;
