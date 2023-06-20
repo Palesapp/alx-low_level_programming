@@ -1,9 +1,11 @@
 #include "main.h"
 /**
-*Description: _abs - computes the absolute value of integer
-*
-*Return: absolute value
-*/
+ *_abs - return the absolute value of a given integer.
+ *@p: value use to find the absolute value.
+ *
+ *
+ *Return: absolute value
+ */
 int _abs(int p)
 {
 	if (p >= 0)
