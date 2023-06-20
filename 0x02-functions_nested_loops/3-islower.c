@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* Description: _islower - i if the input is a
-* lowercase character. Another cases 0
-*
-* Return: 1 for lowercase, 0 for the rest.
-*/
+ * Description: _islower - i if the input is a
+ * lowercase character. Another cases 0
+ *
+ * Return: 1 for lowercase, 0 for the rest.
+ */
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
